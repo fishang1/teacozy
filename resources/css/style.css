@@ -73,6 +73,32 @@ body {
 
 /* Header Styles */
 
+header {
+  position: fixed;
+  width: 100%;
+}
 
+.top-navigation {
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.tc-logo {
+  margin-left: 10px;
+}
+
+.tc-logo img {
+  height: 50px;
+  width: auto;
+}
+
+.nav-link a {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: seashell;
+}
 
 /* End Header Styles */
